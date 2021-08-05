@@ -1,2 +1,9 @@
 # Master_Program_Thesis_Projects
-This repository contains all projects performed as part of my Master Thesis
+
+## Topic: Multi-Domain Learning for Multi-Output Classification of Red Blood Cells
+
+*Abstract*: Hematologists use their experience to identify Red Blood Cell (RBC) disorders. Manual examination of cells are time-consuming, labour-intensive and subjective. RBCs are highly deformable and vary in size, shape, hemoglobin distribution and inclusion, making manual classification tedious. Classification of unstained cells become even more problematic since the hematologists recognize features enhanced by the staining process. This thesis investigates the use of Machine Learning models - particularly Deep Learning algorithms - to address above mentioned problem. Firstly, RBCs are detected fromblood smear images and cropped. Then, the center cell is extracted from each crop using Segmentation, with special handling of touching and overlapping cells. The hand-crafted features are derived from extracted center cell crops using Feature Engineering and analyzed. Later, Multi-Output Classification is performed on the cell to predict its properties. Comparison is made between extracted and learnt features using Support Vector Machine (SVM) classifier. Finally, Domain Adaptation is used in supervised and unsupervised fashion to learn from stained and unstained images for cell classification. The proposed Image Recognition Artificial Intelligence (AI) can revolutionize medical diagnostics, thereby making it cheaper and more accessible.
+
+This repository contains all projects performed as part of my Master Thesis. It also includes Thesis report *CSE_Master_Thesis.pdf*
+
+*Note*: The projects does not include data and models. The data contains patient red blood cell crops, who gave consent for analysis. As Thesis is done in collaboration with **Siemens Healthineers GmbH**, data is removed as part of confidential issues.
