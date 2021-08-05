@@ -6,4 +6,4 @@
 
 This repository contains all projects performed as part of my Master Thesis. It also includes Thesis report *CSE_Master_Thesis.pdf*
 
-*Note*: The projects does not include data and models. The data contains patient red blood cell crops, who gave consent for analysis. As Thesis is done in collaboration with **Siemens Healthineers GmbH**, data is removed as part of confidential issues.
+*Note*: The projects does not include data and models. The data contains patient red blood cell crops, who gave consent for analysis. As Thesis is done in collaboration with **Siemens Healthineers AG**, data is removed as part of confidential issues.
