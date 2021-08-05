@@ -1,0 +1,9 @@
+
+python train.py --label_nc 0 --no_instance --name graychannel --dataroot ./datasets/graychannel --no_flip --save_epoch_freq 5
+python test.py --dataroot ./datasets/graychannel --name graychannel --netG global --label_nc 0 --no_instance --how_many 100 --which_epoch 100
+
+
+
+Is flip left to right(mentioned on youtube video), then we can have it for DIC.
+DONT GIVE THIS ARG while testing:     --resize_or_crop none
+
